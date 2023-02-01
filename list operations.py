@@ -1,0 +1,10 @@
+numbers = [21, 34, 54, 12]
+print("Before Append:", numbers)
+numbers.append(32)
+print("After Append:", numbers)
+print("Before Extend:", numbers)
+numbers.extend([11, 22, 33])
+print('After Extending:', numbers)
+print("Before Deleting:", numbers)
+numbers.remove(22)
+print('After Deleting:', numbers)
